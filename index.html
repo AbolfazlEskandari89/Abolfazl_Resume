@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>رزومه ابوالفضل اسکندری</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Vazirmatn', sans-serif;
+  }
+
+  body {
+    background: #f9f9fb;
+    color: #222;
+    line-height: 1.6;
+  }
+
+  header {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDYwMCA0MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMDA5MjQ2Ii8+CjxyZWN0IHg9IjIwMCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNmZmZmZmYiLz4KPHJlY3QgeD0iNDAwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2NlMjIzNyIvPgo8L3N2Zz4=');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+  }
+
+  /* قاب سفید بدون پرچم برای عکس پروفایل */
+  .profile-frame {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+  }
+
+  header img.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* اسم انگلیسی با رنگ مشکی */
+  header h1 {
+    font-size: 2.8rem;
+    margin-top: 10px;
+    color: black;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 15px;
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    color: #4b6cb7;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #4b6cb7;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-weight: 700;
+  }
+
+  .about p {
+    font-size: 1.1rem;
+    color: #444;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .skill {
+    flex: 1 1 120px;
+    background: #e4e9f7;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 0 3px 8px rgb(75 108 183 / 0.3);
+    transition: transform 0.3s ease;
+  }
+
+  .skill:hover {
+    transform: scale(1.1);
+  }
+
+  .contact-social ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+  }
+
+  .contact-social li {
+    margin-bottom: 12px;
+  }
+
+  .contact-social a {
+    color: #4b6cb7;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .contact-social a:hover {
+    text-decoration: underline;
+  }
+
+  /* بخش تماس با من با پس‌زمینه آبی */
+  .contact {
+    background: #4b6cb7;
+    color: white;
+    padding: 25px 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .contact p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+
+  .contact a {
+    color: #ffeaa7;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  footer {
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+    color: #999;
+  }
+
+  @media(max-width:600px) {
+    header h1 {
+      font-size: 2.2rem;
+    }
+
+    .skills {
+      flex-direction: column;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="profile-frame">
+    <img src="sns.jpg" alt="عکس پروفایل ابوالفضل اسکندری" class="profile-pic" />
+  </div>
+  <h1>Abolfazl Eskandari</h1>
+</header>
+
+<main>
+  <section class="about">
+    <h2>درباره من</h2>
+    <p>Ciao! Sono Abolfazl Eskandari, ho 15 anni e sono appassionato di programmazione, taekwondo e apprendimento della lingua italiana.  
+    Il mio obiettivo è continuare gli studi nel campo della matematica e del web design in università prestigiose in Italia.</p>
+  </section>
+
+  <section class="skills">
+    <h2>مهارت‌ها</h2>
+    <div class="skill">HTML & CSS</div>
+    <div class="skill">طراحی سایت</div>
+    <div class="skill">کمربند مشکی تکواندو</div>
+    <div class="skill">زبان ایتالیایی (سطح مبتدی)</div>
+  </section>
+
+  <section class="contact-social">
+    <h2>راه‌های ارتباطی</h2>
+    <ul>
+      <li>تلگرام: <a href="https://t.me/Abolfazl_aass" target="_blank">@Abolfazl_aass</a></li>
+      <li>تلگرام: <a href="https://t.me/Abolfazlskandarii" target="_blank">@Abolfazlskandarii</a></li>
+      <li>روبیکا: <a href="https://rubika.ir/Abolfazll_TKD" target="_blank">@Abolfazll_TKD</a></li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contattami</h2>
+    <p>Email: <a href="mailto:milan.askandari@gmail.com">milan.askandari@gmail.com</a></p>
+  </section>
+</main>
+
+<footer>
+  ساخته شده با ❤️ توسط ابوالفضل اسکندری 
+</footer>
+
+</body>
+</html>
